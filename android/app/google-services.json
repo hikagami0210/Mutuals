@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1036305094882",
+    "project_id": "music-fan-f9a45",
+    "storage_bucket": "music-fan-f9a45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036305094882:android:840b194155f9836cf5a6bb",
+        "android_client_info": {
+          "package_name": "com.example.music_fun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036305094882-du8sok7m22blv0ibvginmm68jkki2qdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU0kzXKAGS4OElmxpKDhqphaYo2fhabOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036305094882-du8sok7m22blv0ibvginmm68jkki2qdm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1036305094882-o8ldbfmlago0b19qjs3a8f3l7n7vbtpj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.musicFun"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

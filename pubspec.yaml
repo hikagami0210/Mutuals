@@ -1,0 +1,109 @@
+name: music_fun
+description: A Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  # Icon Package
+  cupertino_icons: ^1.0.2
+
+  #FireBase Package
+  firebase_core: ^2.1.1
+  cloud_firestore: ^4.0.3
+  firebase_auth: ^4.1.0
+  firebase_storage: ^11.0.3
+
+  # Localization Package
+  intl: ^0.17.0
+
+  # State management Package
+  provider: ^6.0.3
+  flutter_riverpod: ^2.0.2
+
+  # Widget Part Package
+  settings_ui: ^2.0.2
+  flutter_expandable_fab: ^1.6.0
+  flutter_spinkit: ^5.1.0
+  animated_text_kit: ^4.2.2
+
+  # Tutorial Screen Package
+  flutter_overboard: ^3.1.1
+
+  # Image　Related
+  image_picker: ^0.8.5+3
+  path_provider: ^2.0.11
+
+  # App Icon Setting Package
+  flutter_launcher_icons: ^0.11.0
+
+  # SplashScreen Setting Package
+  flutter_native_splash: ^2.2.15
+
+  # Data LocalStore Package
+  shared_preferences: ^2.0.15
+
+  # Post Time Format Package
+  timeago: ^3.3.0
+
+
+#AppIcon Setting
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/appIcon.png"
+
+
+#SplashScreen Setting
+flutter_native_splash:
+  color: '#041493'
+  image: 'assets/appIcon_outline_title.png'
+  color_dark: '#041493'
+  image_dark: 'assets/appIcon_outline_title.png'
+  fullscreen: true
+  android_12:
+    icon_background_color: '#041493'
+    image: 'assets/appIcon_outline_title.png'
+    icon_background_color_dark: '#041493'
+    image_dark: 'assets/appIcon_outline_title.png'
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  generate: true
+
+  assets:
+    - assets/backGround_OverBoard.png
+    - assets/inui.png
+    - assets/air_composition_icon.png
+    - assets/Mutuals_Log.png
+    - assets/appicon.png
+    - assets/appIcon_outline.png
+    - assets/icon_add.png
+    - assets/icon_add1.png
+    - assets/User_Profile_image.png
+    - assets/User_Profile_image1.png
+    - assets/User_Profile_image2.png
+    - assets/User_Profile_image3.png
+    - assets/User_Profile_image4.png
+    - assets/def_icon.png
+
+  uses-material-design: true
+

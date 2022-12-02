@@ -1,0 +1,14 @@
+main.dart
+    firebaseAuthにログインデータが有るか照合
+    あればホームヘ、なければ言語設定へへ
+
+language_set.dart
+    アプリ初回起動時にpopUp
+    言語設定のち flutterOverboardPage.dartへ
+
+flutterOverboardPage.dart
+    チュートリアル用クラス
+    スキップorフィニッシュでlogin.dartに飛ばす
+
+login.dart
+    DBに
