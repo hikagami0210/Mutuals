@@ -90,14 +90,16 @@ class _UserDetailPageState extends State<UserDetailPage>
           SizedBox(
             height: MediaQuery.of(context).padding.top,
           ),
-          SizedBox(
+          Container(
+            clipBehavior: Clip.antiAlias,
             height: screenSize.height * 0.2,
             width: screenSize.width * 1,
             child: FittedBox(
-              fit: BoxFit.fill,
+              fit: BoxFit.fitWidth,
               child: randomImage(ran),
               // color: Colors.red,
             ),
+            decoration: BoxDecoration(),
           ),
           Container(
               transform: Matrix4.translationValues(0, -35, 0),

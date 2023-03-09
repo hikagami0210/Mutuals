@@ -84,7 +84,6 @@ class _PostCardState extends State<PostCard> {
     String nonNullPostUserName = _postUserName ?? "error";
     String nonNullPostedUserID = _postedUserID ?? "error";
 
-
     return Column(
       children: [
         Padding(
@@ -261,7 +260,6 @@ class _PostCardState extends State<PostCard> {
       _postUserName = ref.get("name");
       _postedUserID   = ref.get("userID");
     });
-
   }
 
   Future _getPostImage(imageURL)async{
@@ -316,7 +314,6 @@ class _PostCardState extends State<PostCard> {
    }
  }
 
-
  Future _likePost()async{
    final int likesCountIncrement = widget.likesCount + 1;
    await FirebaseFirestore.instance.collection('users').doc(widget.postUserId).collection('timeline').doc(widget.postID).update({'likesCount': likesCountIncrement });
@@ -337,8 +334,6 @@ class _PostCardState extends State<PostCard> {
     );
   }
 
-
-
  Widget _likesIconButton(){
     if(_isLikedPost == true){
       return IconButton(constraints: const BoxConstraints(),padding: const EdgeInsets.all(0),onPressed: () async {
@@ -358,8 +353,6 @@ class _PostCardState extends State<PostCard> {
       }, icon: const Icon(Icons.thumb_up_alt_outlined));
     }
  }
-
-
 }
 
 

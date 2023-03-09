@@ -5,6 +5,7 @@ import 'package:music_fun/main_page/thread_page.dart';
 import 'Homepage/home_page.dart';
 import 'my_page.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:awesome_bottom_bar/awesome_bottom_bar.dart';
 
 final baseTabViewProvider = StateProvider<ViewType>((ref) => ViewType.home);
 

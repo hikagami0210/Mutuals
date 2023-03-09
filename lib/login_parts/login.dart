@@ -112,7 +112,7 @@ class _Login extends State<Login> {
                       },
                     ),
                     prefixIcon: const Icon(
-                      Icons.mail,
+                      Icons.lock,
                       color: Colors.white,
                     ),
                     focusedBorder: OutlineInputBorder(

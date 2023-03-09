@@ -1,0 +1,26 @@
+アプリ開く
+↓
+sharedpreferencesで初めてか判断
+↓
+DB,Authに情報があるか確認
+↓　　　　　　　　　　　↓　
+ログイン有、ホームヘ　　なしなら新規登録、ログインページへ　
+
+
+
+----------------現状---------------------------
+
+main.dart
+↓
+ログイン確認 > false > FlutterOverboardPage > Registration > Emailcheck
+↓                                                             ↓
+true                                                        Login
+↓                                                             ↓
+home.dart 　　　 ←　　←　　　←　　　　←　　　←　　　←　　　←　　　　
+
+
+
+
+
+
+

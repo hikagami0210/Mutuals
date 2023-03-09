@@ -77,7 +77,7 @@ class _WelcomePageState extends State<WelcomePage> {
                       .set({
                     'userlist': [widget.uid],
                   });
-                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) {
                     return BaseTabView();
                   }));
                 }catch(e){

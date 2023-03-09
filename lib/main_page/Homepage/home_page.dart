@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:music_fun/main_page/Homepage/post_card.dart';
 import '../../sub_page/posting_page.dart';
+import '../../sub_page/test_page.dart';
 import 'get_post_model.dart';
 
 List<Post> listPost = [];
@@ -38,6 +39,18 @@ class _HomepageStateView extends ConsumerState<HomePageView> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("HOME"),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.menu_outlined),
+            onPressed: () => {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => TestPage(),
+                  ))
+            },
+          ),
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         heroTag: "Posting_button",
