@@ -3,7 +3,7 @@
 アーティストや曲、音楽ジャンルなど音楽に関連した話題のみを話すツイッターと掲示板を融合させたモバイル向けSNSアプリ
 
 ## デモ
-[![デモ映像](https://github.com/hikagami0210/Mutuals/assets/96739134/fa7679bb-7403-4d30-a226-87c872da1061)](https://www.youtube.com/watch?v=kEos2FNxUaM)
+[![デモ映像](https://imgur.com/0P2nwka.png)](https://www.youtube.com/watch?v=kEos2FNxUaM)
 
 
 
